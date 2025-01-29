@@ -27,6 +27,18 @@ namespace ToDoApi.Controllers
             return Ok(tasks);
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTaskById(int id)
+        {
+            var task = await _context.TodoItems.FindAsync(id);
+            if (task == null)
+            {
+                _logger.LogWarning($"Task with ID {id} not found.");
+                return NotFound();
+            }
+            return Ok(task);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateTask([FromBody] TodoItem item)
         {
@@ -41,7 +53,7 @@ namespace ToDoApi.Controllers
             await _context.SaveChangesAsync();
 
             _logger.LogInformation($"Task created with ID {item.Id}.");
-            return Ok(item);
+            return CreatedAtAction(nameof(GetTaskById), new { id = item.Id }, item);
         }
 
         [HttpPut("{id}")]

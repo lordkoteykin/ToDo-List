@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f22f4db75330c705c4bcd924894d12a2dbcffed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d5e0c70db4a16df8f04144b88883907f90b9c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

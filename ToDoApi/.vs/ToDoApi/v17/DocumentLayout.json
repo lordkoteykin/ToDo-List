@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\ToDo List\\ToDo-List\\ToDoApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TestAPI\\ToDoApi.Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,7 +44,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\TestAPI\\ToDoApi.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\TestAPI\\ToDoApi.Tests\\UnitTest1.cs",
@@ -80,8 +80,7 @@
               "RelativeToolTip": "..\\..\\..\\TestAPI\\ToDoApi.Tests\\UnitTest1.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T12:51:01.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T12:51:01.566Z"
             },
             {
               "$type": "Document",
@@ -97,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T12:50:42.635Z",
               "EditorCaption": ""
@@ -146,13 +145,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TodoController.cs",
               "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
               "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Controllers\\TodoController.cs",
               "RelativeToolTip": "Controllers\\TodoController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T12:48:27.682Z",
               "EditorCaption": ""

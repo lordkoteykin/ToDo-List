@@ -1,6 +1,9 @@
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 using ToDoApi.Data;
+using ToDoApi.Models;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
