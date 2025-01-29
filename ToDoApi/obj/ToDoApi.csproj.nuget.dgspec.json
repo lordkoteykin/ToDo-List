@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestAPI\\ToDoApi\\ToDoApi.csproj": {}
+    "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj": {}
   },
   "projects": {
-    "D:\\TestAPI\\ToDoApi\\ToDoApi.csproj": {
+    "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestAPI\\ToDoApi\\ToDoApi.csproj",
+        "projectUniqueName": "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj",
         "projectName": "ToDoApi",
-        "projectPath": "D:\\TestAPI\\ToDoApi\\ToDoApi.csproj",
+        "projectPath": "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj",
         "packagesPath": "C:\\Users\\foxyp\\.nuget\\packages\\",
-        "outputPath": "D:\\TestAPI\\ToDoApi\\obj\\",
+        "outputPath": "D:\\ToDo List\\ToDo-List\\ToDoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

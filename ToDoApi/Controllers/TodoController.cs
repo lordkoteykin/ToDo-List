@@ -23,11 +23,12 @@ namespace ToDoApi.Controllers
         public async Task<IActionResult> GetTasks()
         {
             _logger.LogInformation("Fetching all tasks from the database.");
-            return Ok(await _context.TodoItems.ToListAsync());
+            var tasks = await _context.TodoItems.ToListAsync();
+            return Ok(tasks);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateTask(TodoItem item)
+        public async Task<IActionResult> CreateTask([FromBody] TodoItem item)
         {
             if (!ModelState.IsValid)
             {
@@ -35,15 +36,23 @@ namespace ToDoApi.Controllers
                 return BadRequest(ModelState);
             }
 
+            item.IsCompleted = false;
             _context.TodoItems.Add(item);
             await _context.SaveChangesAsync();
+
             _logger.LogInformation($"Task created with ID {item.Id}.");
-            return CreatedAtAction(nameof(GetTasks), new { id = item.Id }, item);
+            return Ok(item);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateTask(int id, TodoItem updatedItem)
+        public async Task<IActionResult> UpdateTask(int id, [FromBody] TodoItem updatedItem)
         {
+            if (!ModelState.IsValid)
+            {
+                _logger.LogWarning("Invalid model state while updating a task.");
+                return BadRequest(ModelState);
+            }
+
             var task = await _context.TodoItems.FindAsync(id);
             if (task == null)
             {

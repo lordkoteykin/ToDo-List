@@ -10110,11 +10110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestAPI\\ToDoApi.Tests\\ToDoApi.Tests.csproj",
+      "projectUniqueName": "D:\\ToDo List\\ToDo-List\\ToDoApi.Tests\\ToDoApi.Tests.csproj",
       "projectName": "ToDoApi.Tests",
-      "projectPath": "D:\\TestAPI\\ToDoApi.Tests\\ToDoApi.Tests.csproj",
+      "projectPath": "D:\\ToDo List\\ToDo-List\\ToDoApi.Tests\\ToDoApi.Tests.csproj",
       "packagesPath": "C:\\Users\\foxyp\\.nuget\\packages\\",
-      "outputPath": "D:\\TestAPI\\ToDoApi.Tests\\obj\\",
+      "outputPath": "D:\\ToDo List\\ToDo-List\\ToDoApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10136,8 +10136,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\TestAPI\\ToDoApi\\ToDoApi.csproj": {
-              "projectPath": "D:\\TestAPI\\ToDoApi\\ToDoApi.csproj"
+            "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj": {
+              "projectPath": "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj"
             }
           }
         }
