@@ -27,10 +27,10 @@ Open the **appsettings.json** file and update the connection string under the Co
 
 
 "ConnectionStrings": {
-  "DefaultConnection": "Host=localhost;Port=5432;Database=todo_db;Username=postgres;Password=your-password"
+  "DefaultConnection": "Host=localhost;Port=5432;Database=todo_db;Username=postgres;Password=pass"
 }
 
-Replace "localhost", "postgres", and "your-password" with your actual database details.
+Replace "localhost", "postgres", and "pass" with your actual database details.
 
 
 ### 4. Apply Database Migrations
