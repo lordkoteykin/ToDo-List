@@ -70,7 +70,8 @@ namespace ToDoApi.Tests
             {
                 Name = "Updated Task",
                 Description = "Updated Description",
-                DueDate = DateTime.Now.AddDays(5)
+                DueDate = DateTime.Now.AddDays(5),
+                IsCompleted = true
             };
 
             var result = await _controller.UpdateTask(taskId, updatedTask);
@@ -79,6 +80,7 @@ namespace ToDoApi.Tests
             var updated = Assert.IsType<TodoItem>(okResult.Value);
             Assert.Equal("Updated Task", updated.Name);
             Assert.Equal("Updated Description", updated.Description);
+            Assert.True(updated.IsCompleted);
         }
 
         [Fact]
@@ -114,5 +116,30 @@ namespace ToDoApi.Tests
 
             Assert.IsType<NotFoundResult>(result);
         }
+
+        [Fact]
+        public async Task UpdateTask_CanMarkTaskAsCompleted()
+        {
+            var taskId = 1;
+            var existingTask = await _context.TodoItems.FindAsync(taskId);
+            Assert.NotNull(existingTask);
+            Assert.False(existingTask.IsCompleted);
+
+            var updatedTask = new TodoItem
+            {
+                Name = existingTask.Name,
+                Description = existingTask.Description,
+                DueDate = existingTask.DueDate,
+                IsCompleted = true
+            };
+
+            var result = await _controller.UpdateTask(taskId, updatedTask);
+
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var updated = Assert.IsType<TodoItem>(okResult.Value);
+
+            Assert.True(updated.IsCompleted);
+        }
+
     }
 }

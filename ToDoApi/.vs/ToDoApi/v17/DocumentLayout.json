@@ -7,8 +7,11 @@
       "RelativeMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|solutionrelative:todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ABADEDD3-84A2-4E57-80F6-F80636933023}|..\\ToDoApi.Tests\\ToDoApi.Tests.csproj|d:\\todo list\\todo-list\\todoapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCF0FDB5-37A9-464D-B2AD-B574D3CC4370}|ToDoApi.csproj|d:\\todo list\\todo-list\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,35 +35,48 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-29T19:54:39.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoController.cs",
-              "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Controllers\\TodoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
-              "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Controllers\\TodoController.cs",
-              "RelativeToolTip": "Controllers\\TodoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T17:48:24.285Z",
+              "WhenOpened": "2025-01-29T20:45:46.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ToDoApi.csproj",
-              "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj",
-              "RelativeDocumentMoniker": "ToDoApi.csproj",
-              "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\ToDoApi.csproj",
-              "RelativeToolTip": "ToDoApi.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-29T17:37:01.447Z",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\ToDoApi.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\ToDoApi.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwFIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:36:50.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T20:39:29.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
+              "ToolTip": "D:\\ToDo List\\ToDo-List\\ToDoApi\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwv0cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:48:24.285Z",
               "EditorCaption": ""
             }
           ]
